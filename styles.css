@@ -1,0 +1,118 @@
+/* black background for navbar */
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  
+  }
+  
+  /* navbar text */
+  .navbar a {
+    color: #f2f2f2;
+    font-weight: bold;
+    padding-top: 0px;
+    padding-left: 10px;
+    text-decoration: none;
+    font-size: 11px;
+    margin-right: 50px;
+    margin-left: 0px;
+  }
+
+  /* Change the color of links with hover */
+  .navbar a:hover {
+    background-color: rgb(165, 154, 154);
+    color: black;
+  }
+
+  /* Card group css */
+  .card-group{
+    margin-left: 60px;
+    margin-right: 60px;
+    
+  }
+
+  .card{
+    margin: 10px 10px 10px 10px;
+  }
+  
+  .card-body{
+    height: 140px;
+
+  }
+  .card-text{
+    font-size: 13px;
+    padding-top: 0%;
+  }
+  
+  .card-title{
+    text-align: center;
+    font-weight: bold;
+  }
+
+/* Copious Sports */
+  h4{
+    margin-left: 0px;
+    margin-top: 70px;
+    margin-right: 230px;
+    font-family: Impact;
+    color: red;
+    padding-top: 10px;
+    padding-left: 50px;
+  }
+ 
+  .button{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: 50px; 
+    margin-bottom: 0px;
+    width: 150px; 
+    
+  }
+
+  footer{
+    background: #000000;
+    background-size: 10px;
+    color:white;
+    margin-top: 50px;
+   
+    
+    .links{
+      ul list-style-type: none;
+      li a{
+        color: white;
+        transition: color .2s;}
+        &:hover{
+          text-decoration:none;
+          color: #4180CB;
+        padding-top: 10px; 
+        padding-bottom: 0px;
+      }
+      
+      
+    .about-company{
+      i{font-size: 25px;}
+    }
+      a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+      }
+   
+    .location{
+      i{font-size: 18px;}
+  
+      } 
+
+    h3{
+    font-family: Impact;
+    color: red;
+    }
+    
+    .copyright{
+      font-size: 2px;
+    }
